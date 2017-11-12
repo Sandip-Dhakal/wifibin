@@ -6,10 +6,6 @@
 
 #define ARRAYSIZE 7
 
-extern "C" {
-  #include "user_interface.h"
-}
-
 const char* ssid = "dayprtfzpew-a2adp";
 const char* password = "possible99";
 String payload;
@@ -142,7 +138,7 @@ void wifibin(){
     
     }
       
- delay(3000);    
+
   }
 }
 
